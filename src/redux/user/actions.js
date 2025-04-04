@@ -6,5 +6,5 @@ export const loginUser = (payload) => ({
 })
 
 export const logoutUser = () => ({
-    type: UserActionTypes.LOGIN,
+    type: UserActionTypes.LOGOUT,
 })
